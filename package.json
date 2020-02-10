@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "da_components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +39,16 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^5.3.12",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-docs": "^5.3.12",
+    "@storybook/addon-knobs": "^5.3.12",
+    "@storybook/addon-links": "^5.3.12",
+    "@storybook/addon-storysource": "^5.3.12",
+    "@storybook/addon-viewport": "^5.3.12",
+    "@storybook/addons": "^5.3.12",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^5.3.12",
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
     "eslint": "^6.8.0",
@@ -48,5 +60,8 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.27"
   }
 }
