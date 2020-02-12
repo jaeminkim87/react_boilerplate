@@ -1,7 +1,5 @@
 # Components
 
-React + Typescript + Styled component + Storybook + jest
-
 ## Usage
 
 ```shell script

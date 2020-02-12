@@ -1,0 +1,14 @@
+export const mainColor = 'rgb(251, 215, 41)';
+export const mainHoverColor = 'rgba(251, 215, 41, 0.8)';
+export const mainDisabledColor = 'rgba(251, 215, 41, 0.3)';
+export const subColor = 'rgb(37, 46, 121)';
+export const subHoverColor = 'rgba(37, 46, 121, 0.8)';
+export const subDisabledColor = 'rgba(37, 46, 121, 0.3)';
+export const fontColor = '#1A1B25';
+export const whiteColor = '#FFFFFF';
+export const dangerColor = '#ff4444';
+export const warningColor = '#ffbb33';
+export const infoColor = '#33b5e5';
+export const successColor = '#00C851';
+export const borderColor = '#CCCCCC';
+export const darkColor = '#2E2E2E';

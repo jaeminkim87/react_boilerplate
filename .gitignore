@@ -25,4 +25,5 @@ yarn-error.log*
 .idea/*
 *.iml
 /.idea/
-/.idea/*
+
+/storybook-static

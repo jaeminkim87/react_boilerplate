@@ -14,6 +14,7 @@ const style = css`
   border-radius: 0.25rem;
   line-height: 1;
   font-weight: 600;
+  cursor: pointer;
   &:focus {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   }
@@ -97,13 +98,9 @@ type ButtonProps = {
   onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void;
   /** 버튼의 크기를 설정합니다 */
   size: 'small' | 'medium' | 'big';
-  /**
-   * 버튼을 비활성화 시킵니다.
-   */
+  /** 버튼을 비활성화 시킵니다.*/
   disabled?: boolean;
-  /**
-   * 버튼의 너비를 임의로 설정합니다.
-   */
+  /** 버튼의 너비를 임의로 설정합니다.*/
   width?: string | number;
 };
 

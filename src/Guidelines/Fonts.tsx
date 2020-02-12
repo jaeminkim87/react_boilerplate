@@ -1,0 +1,10 @@
+export const defaultLineHeight = 1.5;
+export const h1Size = '2.5rem';
+export const h1LineHeight = '3.125rem';
+export const h2Size = '1.875rem';
+export const h2LineHeight = '2.5rem';
+export const h3Size = '1.625rem';
+export const h4Size = '1.35rem';
+export const h5Size = '1.125rem';
+export const h6Size = '1rem';
+export const pSize = '0.875rem';
